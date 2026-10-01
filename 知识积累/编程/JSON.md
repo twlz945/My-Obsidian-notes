@@ -279,6 +279,8 @@ except json.JSONDecodeError as e:
 | JSONC | JSON with Comments | JSON + 注释（VS Code 使用） |
 | JSONPath | JSON 的查询语言 | 类似 XPath，用于提取 JSON 中的特定数据 |
 | BSON | Binary JSON | JSON 的二进制编码格式，MongoDB 使用 |
+| JSONL / NDJSON | JSON Lines | 每行一个独立 JSON 对象，适合流式处理 |
+| MessagePack | 二进制序列化格式 | 比 JSON 更紧凑，跨语言 |
 | JSON Schema | JSON 的元数据描述 | 用于描述和验证 JSON 数据的结构 |
 | JSONP | JSON with Padding | JSON 的跨域请求扩展（已过时） |
 | GeoJSON | 地理信息 JSON | 用于编码各种地理数据结构 |
