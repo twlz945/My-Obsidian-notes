@@ -159,3 +159,8 @@ FastAPI 会自动完成请求体解析、校验，并生成 Swagger 文档。
 - 可变默认值（`list`、`dict`）必须用 `default_factory`，避免共享引用。
 - 对外接口建议开启 `extra="forbid"`，防止脏数据侵入。
 - 核心数据场景可开启 `strict=True`，杜绝隐式类型转换。
+
+## 相关
+
+- [[FastAPI]]
+- [[models目录]]

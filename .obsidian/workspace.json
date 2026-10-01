@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识积累/编程/JSON.md",
+                "file": "知识积累/编程/__init__.py.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JSON"
+              "title": "__init__.py"
             }
           },
           {
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识积累/编程/JSON.md",
+                "file": "知识积累/编程/__init__.py.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识积累/编程/JSON.md",
+                "file": "知识积累/编程/__init__.py.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识积累/编程/JSON.md",
+                "file": "知识积累/编程/__init__.py.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -242,10 +242,19 @@
   },
   "active": "b29dee546fd4ec57",
   "lastOpenFiles": [
+    "知识积累/编程/编程.md",
+    "知识积累/编程/JSON.md",
+    "知识积累/编程/教程/教程.md",
+    "知识积累/编程/网络/网络.md",
+    "知识积累/编程/教程/教程目录.md",
+    "知识积累/编程/网络/网络目录.md",
+    "知识积累/编程/编程目录.md",
+    "知识积累/编程/教程/index.md",
+    "知识积累/编程/index.md",
+    "知识积累/编程/网络/index.md",
     "知识积累/编程/Flask.md",
     "知识积累/编程/未命名.md",
     "知识积累/编程/未命名 1.md",
-    "知识积累/编程/JSON.md",
     "知识积累/编程/教程/Python进阶阶段学习规划表.md",
     "知识积累/编程/__mv_a2__.md",
     "知识积累/编程/__mv_b__.md",
@@ -263,19 +272,10 @@
     "游戏开发",
     "知识积累/编程/教程/用 Python 搭建复杂项目.md",
     "知识积累/编程/教程/Socket入门文档.md",
-    "知识积累/编程/网络/UDP.md",
-    "知识积累/编程/网络/TCP.md",
-    "知识积累/编程/网络/Socket.md",
-    "知识积累/编程/Pydantic.md",
-    "知识积累/编程/网络/FastAPI.md",
-    "知识积累/编程/依赖注入.md",
-    "知识积累/编程/控制反转.md",
-    "知识积累/编程/src 布局.md",
     "知识积累/编程/教程/Socket入门文档.md.crdownload",
     "知识积累/编程/教程",
     "知识积累/编程/新建文件夹",
     "知识积累/编程/网络",
-    "知识积累/编程/MySQL.md",
     "知识积累/编程/JSON.md.crdownload",
     "copilot/skills/obsidian-cli/LICENSE",
     "copilot/skills/obsidian-cli",

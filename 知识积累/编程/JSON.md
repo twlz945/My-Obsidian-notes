@@ -291,13 +291,9 @@ except json.JSONDecodeError as e:
 - [[RESTful API]] — JSON 是 RESTful API 最常用的数据交换格式
 - [[XML]] — JSON 的主要竞争者/替代者
 - [[YAML]] — 另一种流行的数据序列化格式，配置文件场景常用
-- [[Markdown]] — 另一种轻量级标记语言
+- [[Markdown语法]] — 另一种轻量级标记语言
 - [[JavaScript]] — JSON 源自 JavaScript，语法是其子集
 - [[API]] — 应用程序接口，JSON 是其数据交换的核心格式
 - [[MongoDB]] — 文档数据库，使用 BSON（JSON 的二进制形式）
 - [[JSON Schema]] — 用于定义和验证 JSON 数据结构
 - [[序列化与反序列化]] — JSON 解析的本质就是序列化/反序列化过程
-
-## 标签
-
-#编程 #数据格式 #JSON #API #Web开发 #数据交换 #配置文件 #RESTful

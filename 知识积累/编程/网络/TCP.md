@@ -172,3 +172,8 @@ TCP 是字节流协议，没有天然消息边界。多次 `send()` 的数据可
 - **数据库通信**：MySQL、PostgreSQL 客户端连接
 - **即时通讯**：WebSocket 升级后基于 TCP 长连接
 - **远程登录**：SSH、Telnet
+
+## 相关
+
+- [[UDP]]
+- [[Socket]]

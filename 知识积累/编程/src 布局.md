@@ -56,3 +56,8 @@ my_project/
 - `pyproject.toml` 中要配置 `packages` 或 `package-dir`，告诉构建工具源码在 `src/` 下。
 
 简单说：**小脚本可以用扁平布局；只要项目会打包、发布、写测试或多人协作，优先用 src 布局。**
+
+## 相关
+
+- [[models目录]]
+- [[__init__.py]]
