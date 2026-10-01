@@ -4,38 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "52ae16d94f504b51",
+        "id": "7fc6e1babc8be2bd",
         "type": "tabs",
         "children": [
           {
-            "id": "b29dee546fd4ec57",
+            "id": "7d7ba111a394bdbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识积累/编程/__init__.py.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "__init__.py"
-            }
-          },
-          {
-            "id": "dbed08558677ef30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/规划/学习路线.md",
+                "file": "游戏开发/规划/我的想法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "学习路线"
+              "title": "我的想法"
+            }
+          },
+          {
+            "id": "f0bff9530916507e",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "游戏开发/规划/学习路线.md",
+                "bFile": "游戏开发/规划/学习路线.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 学习路线  (Working Tree)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识积累/编程/__init__.py.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识积累/编程/__init__.py.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -176,7 +175,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识积累/编程/__init__.py.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -217,13 +215,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "d14d6ca8791ce0f2",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
           }
         ],
         "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,10 +248,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b29dee546fd4ec57",
+  "active": "f0bff9530916507e",
   "lastOpenFiles": [
-    "知识积累/编程/编程.md",
+    "知识积累/编辑/Markdown语法.md",
+    "知识积累/编辑/Obsidian 快捷键.md",
+    "知识积累/编辑/双向链接.md",
+    "游戏开发/规划/我的想法.md",
+    "游戏开发/规划/学习规划.md",
+    "游戏开发/规划/未命名.canvas",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "2026/10/01.md",
+    "2026/10",
     "知识积累/编程/JSON.md",
+    "知识积累/编程/编程.md",
+    "知识积累/编程/__init__.py.md",
+    "知识积累/编程/控制反转.md",
     "知识积累/编程/教程/教程.md",
     "知识积累/编程/网络/网络.md",
     "知识积累/编程/教程/教程目录.md",
@@ -258,27 +277,15 @@
     "知识积累/编程/教程/Python进阶阶段学习规划表.md",
     "知识积累/编程/__mv_a2__.md",
     "知识积累/编程/__mv_b__.md",
-    "知识积累/编程/__mv_a__.md",
-    "游戏开发/规划/学习路线.md",
-    "游戏开发/规划/需求.md",
-    "知识积累/编程/__skill_test__.md",
-    "游戏开发/规划/未命名.canvas",
-    "知识积累/编程/__init__.py.md",
-    "杂记/评论.md",
-    "杂记/惊天秘闻.md",
-    "杂记/补番列表.md",
     "未命名",
     "游戏开发/规划",
     "游戏开发",
-    "知识积累/编程/教程/用 Python 搭建复杂项目.md",
-    "知识积累/编程/教程/Socket入门文档.md",
     "知识积累/编程/教程/Socket入门文档.md.crdownload",
     "知识积累/编程/教程",
     "知识积累/编程/新建文件夹",
     "知识积累/编程/网络",
     "知识积累/编程/JSON.md.crdownload",
     "copilot/skills/obsidian-cli/LICENSE",
-    "copilot/skills/obsidian-cli",
     "esp32/GPIO/GPIO_TEST_01/未命名.canvas",
     "Greg/未命名.canvas",
     "未命名.canvas",

@@ -15,14 +15,6 @@ JSON（JavaScript Object Notation）是一种轻量级的数据交换格式，�
 
 JSON 由 Douglas Crockford 在 2001 年开始推广使用，2013 年由 ECMA-404 标准化为 **ECMA-404** 标准，2017 年由 IETF 发布为 **RFC 8259** 标准。
 
-## 历史背景
-
-- **2001年**：Douglas Crockford 提出 JSON 规范，最初作为 XML 的轻量级替代方案
-- **2005-2006年**：随着 AJAX 技术的兴起，JSON 开始在 Web 开发中广泛使用
-- **2013年**：ECMA International 发布 ECMA-404 标准
-- **2017年**：IETF 发布 RFC 8259，将 JSON 正式纳入互联网标准
-- **2020年代**：JSON 成为 API 数据交换的事实标准，广泛应用于前后端通信、配置文件、NoSQL 数据库等领域
-
 ## 语法规范
 
 ### 基本规则
@@ -270,6 +262,14 @@ try:
 except json.JSONDecodeError as e:
     print(f"JSON 解析错误: {e}")
 ```
+
+## 历史背景
+
+- **2001年**：Douglas Crockford 提出 JSON 规范，最初作为 XML 的轻量级替代方案
+- **2005-2006年**：随着 AJAX 技术的兴起，JSON 开始在 Web 开发中广泛使用
+- **2013年**：ECMA International 发布 ECMA-404 标准
+- **2017年**：IETF 发布 RFC 8259，将 JSON 正式纳入互联网标准
+- **2020年代**：JSON 成为 API 数据交换的事实标准，广泛应用于前后端通信、配置文件、NoSQL 数据库等领域
 
 ## 相关扩展格式
 
