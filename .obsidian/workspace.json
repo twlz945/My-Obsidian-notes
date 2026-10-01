@@ -20,8 +20,33 @@
               "icon": "lucide-file",
               "title": "CE-TX 手法"
             }
+          },
+          {
+            "id": "ad3fee0dd4a00c2e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "杂记/Drawing 2026-10-02 07.27.16.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-02 07.27.16.excalidraw"
+            }
+          },
+          {
+            "id": "768c95ac23963166",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "杂记/Drawing 2026-10-02 07.27.16.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-02 07.27.16.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂记/CE-TX 手法.md",
+                "file": "杂记/Drawing 2026-10-02 07.27.16.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂记/CE-TX 手法.md",
+                "file": "杂记/Drawing 2026-10-02 07.27.16.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -162,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂记/CE-TX 手法.md",
+                "file": "杂记/Drawing 2026-10-02 07.27.16.excalidraw.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -235,10 +260,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7d7ba111a394bdbf",
+  "active": "768c95ac23963166",
   "lastOpenFiles": [
-    "游戏开发/规划/我的想法.md",
+    "杂记/Pasted image 20261002072708.png",
+    "杂记/Drawing 2026-10-02 07.27.16.excalidraw.md",
+    "杂记/Pasted image 20261002072708_0.png",
     "杂记/CE-TX 手法.md",
+    "游戏开发/规划/我的想法.md",
     "Excalidraw/Drawing 2026-10-02 07.20.32.excalidraw.md",
     "游戏开发/规划/未命名.canvas",
     "游戏开发/规划/学习规划.md",
@@ -263,8 +291,6 @@
     "知识积累/编程/教程/教程目录.md",
     "知识积累/编程/网络/网络目录.md",
     "知识积累/编程/编程目录.md",
-    "知识积累/编程/教程/index.md",
-    "知识积累/编程/index.md",
     "未命名",
     "游戏开发/规划",
     "游戏开发",
@@ -289,8 +315,6 @@
     "turing complete/CPU架构.canvas",
     "turing complete/图片/Pasted image 20260810154008.png",
     "turing complete/图片/内存操作码.png",
-    "turing complete/图片/外设操作码.png",
-    "turing complete/图片/内存操作码 1.png",
     "turing complete/T32架构/未命名.canvas",
     "未命名 1.canvas"
   ]
