@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏开发/规划/我的想法.md",
+                "file": "杂记/CE-TX 手法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "我的想法"
+              "title": "CE-TX 手法"
             }
           }
         ]
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏开发/规划/我的想法.md",
+                "file": "杂记/CE-TX 手法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏开发/规划/我的想法.md",
+                "file": "杂记/CE-TX 手法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏开发/规划/我的想法.md",
+                "file": "杂记/CE-TX 手法.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -231,13 +231,16 @@
       "workspaces:管理工作区布局": false,
       "copilot:Open Copilot Agent Chat": false,
       "realclaudian:Open Claudian": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "322b2b36bdd4faab",
+  "active": "7d7ba111a394bdbf",
   "lastOpenFiles": [
-    "游戏开发/规划/未命名.canvas",
     "游戏开发/规划/我的想法.md",
+    "杂记/CE-TX 手法.md",
+    "Excalidraw/Drawing 2026-10-02 07.20.32.excalidraw.md",
+    "游戏开发/规划/未命名.canvas",
     "游戏开发/规划/学习规划.md",
     "知识积累/编程/网络/UDP.md",
     "知识积累/编程/教程/Python进阶阶段学习规划表.md",
@@ -262,7 +265,6 @@
     "知识积累/编程/编程目录.md",
     "知识积累/编程/教程/index.md",
     "知识积累/编程/index.md",
-    "知识积累/编程/网络/index.md",
     "未命名",
     "游戏开发/规划",
     "游戏开发",
