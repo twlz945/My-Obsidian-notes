@@ -1,0 +1,9 @@
+{
+  "accentColor": "#009dff",
+  "showRibbon": true,
+  "nativeMenus": false,
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "baseFontSize": 18
+}

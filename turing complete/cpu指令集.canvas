@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"04f8807061c3d6e9","type":"file","file":"turing complete/图片/Pasted image 20260804082207.png","x":40,"y":-397,"width":242,"height":157},
+		{"id":"eb6a4d95fea7b05b","type":"file","file":"turing complete/图片/Pasted image 20260809145549.png","x":-600,"y":-397,"width":620,"height":499},
+		{"id":"1095473456742c6c","type":"file","file":"turing complete/图片/Pasted image 20260810154008.png","x":40,"y":-80,"width":673,"height":183},
+		{"id":"55535399387af28b","type":"file","file":"turing complete/CPU架构.canvas","x":-880,"y":-397,"width":260,"height":156},
+		{"id":"922fa5c7faecb248","type":"file","file":"turing complete/图片/Pasted image 20260804083625.png","x":-600,"y":260,"width":742,"height":100},
+		{"id":"2f33fdaacf6cf369","type":"file","file":"turing complete/图片/Pasted image 20260804082222.png","x":40,"y":-218,"width":474,"height":120},
+		{"id":"4d5e6ace90490a08","type":"file","file":"turing complete/ARM访问模式.png","x":540,"y":-436,"width":240,"height":338}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

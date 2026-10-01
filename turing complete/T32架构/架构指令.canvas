@@ -1,0 +1,69 @@
+{
+	"nodes":[
+		{"id":"dffab5771e056a72","type":"file","file":"turing complete/图片/内存操作码.png","x":320,"y":-499,"width":180,"height":349},
+		{"id":"0f93759f12faa7e1","type":"file","file":"turing complete/图片/模式Mode 图片.png","x":-129,"y":-880,"width":220,"height":174},
+		{"id":"263b09f5cf65ce2e","type":"file","file":"turing complete/图片/指令.png","x":-218,"y":-499,"width":399,"height":233},
+		{"id":"2f41048a67d0e54c","type":"file","file":"turing complete/图片/指令位.png","x":-219,"y":-80,"width":399,"height":162},
+		{"id":"f6299ccf9b81c71b","type":"file","file":"turing complete/图片/外设操作码.png","x":669,"y":-499,"width":400,"height":291},
+		{"id":"3958c66408734c84","type":"file","file":"turing complete/图片/内存操作方式.png","x":251,"y":-80,"width":818,"height":360},
+		{"id":"89ec8727bd88791b","type":"file","file":"turing complete/T32架构/汇编指令.md","x":-1040,"y":-906,"width":779,"height":1186}
+	],
+	"edges":[
+		{
+			"id":"961cc43578f425fe",
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromNode":"0f93759f12faa7e1",
+			"fromSide":"bottom",
+			"toNode":"dffab5771e056a72",
+			"toSide":"top"
+		},
+		{
+			"id":"1f1131bf7aaf8ee0",
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"0f93759f12faa7e1",
+			"fromSide":"bottom",
+			"toNode":"f6299ccf9b81c71b",
+			"toSide":"top"
+		},
+		{
+			"id":"46f8db0dda31477e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"dffab5771e056a72",
+			"fromSide":"bottom",
+			"toNode":"3958c66408734c84",
+			"toSide":"top"
+		},
+		{
+			"id":"ab833c597604390d",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"0f93759f12faa7e1",
+			"fromSide":"bottom",
+			"toNode":"263b09f5cf65ce2e",
+			"toSide":"top"
+		},
+		{
+			"id":"88cef1dae7ca7aaa",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"263b09f5cf65ce2e",
+			"fromSide":"bottom",
+			"toNode":"2f41048a67d0e54c",
+			"toSide":"top"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

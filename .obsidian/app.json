@@ -1,0 +1,11 @@
+{
+  "promptDelete": true,
+  "livePreview": true,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "attachmentFolderPath": "./",
+  "defaultViewMode": "preview",
+  "showInlineTitle": true,
+  "strictLineBreaks": false
+}
