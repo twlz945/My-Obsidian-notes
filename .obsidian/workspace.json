@@ -240,8 +240,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "322b2b36bdd4faab",
+  "active": "b29dee546fd4ec57",
   "lastOpenFiles": [
+    "知识积累/编程/__mv_a2__.md",
+    "知识积累/编程/__mv_b__.md",
+    "知识积累/编程/__mv_a__.md",
     "游戏开发/规划/学习路线.md",
     "游戏开发/规划/需求.md",
     "知识积累/编程/__skill_test__.md",
@@ -274,9 +277,6 @@
     "知识积累/编程/JSON.md",
     "知识积累/编程/Flask.md",
     "知识积累/编程/JSON.md.crdownload",
-    "知识积累/编辑/Markdown语法.md",
-    "知识积累/编辑/双向链接.md",
-    "copilot/skills/copilot-fetch-x/SKILL.md",
     "copilot/skills/obsidian-cli/LICENSE",
     "copilot/skills/obsidian-cli",
     "esp32/GPIO/GPIO_TEST_01/未命名.canvas",

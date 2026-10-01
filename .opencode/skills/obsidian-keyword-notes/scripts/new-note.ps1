@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
   Safely create a new Markdown note inside an Obsidian vault.
 

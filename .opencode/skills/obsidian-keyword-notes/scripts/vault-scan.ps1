@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
   Read-only scan of an Obsidian vault for notes related to a set of keywords.
 
@@ -41,7 +41,7 @@ function Emit($obj) {
 }
 
 # Directories that are never content notes.
-$excludePattern = '\\(\.obsidian|\.trash|\.git|\.claudian|\.opencode|copilot)(\\|$)'
+$excludePattern = '\\(\.obsidian|\.trash|\.git|\.claudian|\.opencode|\.agents|copilot)(\\|$)'
 
 # Calling a script with -File joins array arguments with commas, so split each
 # element again to support both "-Keywords a,b" and a real string array.
