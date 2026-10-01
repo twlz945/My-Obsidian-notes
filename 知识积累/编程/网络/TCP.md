@@ -1,4 +1,12 @@
-## TCP（Transmission Control Protocol）
+---
+title: TCP
+date: 2026-10-01
+tags:
+  - 网络编程
+  - TCP
+---
+
+# TCP（Transmission Control Protocol）
 
 **TCP** 是传输控制协议，属于 TCP/IP 协议栈中的**传输层协议**。 它是面向连接的、可靠的、基于字节流的通信协议，在不可靠的 IP 网络上提供可靠的端到端数据传输。
 

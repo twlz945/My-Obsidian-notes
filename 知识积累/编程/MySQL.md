@@ -1,12 +1,23 @@
+---
+title: MySQL
+date: 2026-09-26
+tags:
+  - 数据库
+  - MySQL
+  - 后端开发
+---
+
+# MySQL
+
 MySQL 是全球使用最广泛的开源关系型数据库，以其高性能、高可靠性和易用性著称，是 Web 应用后端存储的事实标准。
 
-### MySQL 是什么？
+## MySQL 是什么？
 
 MySQL 是一个基于客户端-服务器模型的关系型数据库管理系统（RDBMS），使用 SQL（结构化查询语言）进行数据操作。它采用**插件式存储引擎架构**，核心引擎是 **InnoDB**，支持事务（ACID）、行级锁、外键等关键特性。
 
 ---
 
-### 2026 年版本现状（关键！）
+## 2026 年版本现状（关键！）
 
 截至 2026 年，MySQL 采用 **LTS（长期支持）+ 创新版**双轨发布模型：
 
@@ -22,7 +33,7 @@ MySQL 是一个基于客户端-服务器模型的关系型数据库管理系统�
 
 ---
 
-### MySQL 8.4 LTS 核心新特性
+## MySQL 8.4 LTS 核心新特性
 
 作为当前生产环境推荐版本，8.4 LTS 带来多项重要改进：
 
@@ -32,7 +43,7 @@ MySQL 是一个基于客户端-服务器模型的关系型数据库管理系统�
 - **容器感知**：自动识别 Docker/K8s 环境，动态调整 `innodb_buffer_pool_instances` 和 `innodb_io_capacity`（默认提升至 10000，适配高速 SSD）
 - **组复制（MGR）增强**：支持同大版本内小版本混跑及原地降级，克隆插件放宽版本限制
 
-#### 重大变更（升级必看）
+### 重大变更（升级必看）
 
 - **默认禁用 `mysql_native_password`**：改用 `caching_sha2_password`，旧版客户端需升级驱动或显式启用兼容模式
 - **移除 MASTER/SLAVE 术语**：统一为 `SOURCE/REPLICA` 语法
@@ -40,7 +51,7 @@ MySQL 是一个基于客户端-服务器模型的关系型数据库管理系统�
 
 ---
 
-### MySQL 9.7 LTS 核心新特性
+## MySQL 9.7 LTS 核心新特性
 
 新一代 LTS 版本引入了面向未来的能力：
 
@@ -53,9 +64,9 @@ MySQL 是一个基于客户端-服务器模型的关系型数据库管理系统�
 
 ---
 
-### 快速上手
+## 快速上手
 
-#### 安装（以 Ubuntu 为例）
+### 安装（以 Ubuntu 为例）
 
 ```bash
 # 安装 MySQL 8.4
@@ -70,7 +81,7 @@ sudo systemctl enable mysql
 sudo mysql_secure_installation
 ```
 
-#### 基本操作
+### 基本操作
 
 ```sql
 -- 连接数据库
@@ -96,11 +107,11 @@ SELECT * FROM users WHERE username = 'alice';
 
 ---
 
-### 与 Python 项目集成
+## 与 Python 项目集成
 
 结合你之前了解的 FastAPI/Flask + Pydantic，MySQL 在 Python 项目中的典型集成方式：
 
-#### 1. 驱动选择
+### 1. 驱动选择
 
 | 驱动 | 特点 | 适用场景 |
 |------|------|----------|
@@ -109,7 +120,7 @@ SELECT * FROM users WHERE username = 'alice';
 | **aiomysql** | 异步驱动 | FastAPI 异步项目 |
 | **asyncmy** | 异步驱动，性能更优 | FastAPI 高并发场景 |
 
-#### 2. ORM 框架
+### 2. ORM 框架
 
 ```python
 # SQLAlchemy 2.0 + FastAPI 示例
@@ -133,7 +144,7 @@ engine = create_engine(DATABASE_URL, echo=True)
 SessionLocal = sessionmaker(bind=engine)
 ```
 
-#### 3. 结合 Pydantic 做数据校验
+### 3. 结合 Pydantic 做数据校验
 
 ```python
 from pydantic import BaseModel, EmailStr, Field
@@ -152,7 +163,7 @@ class UserResponse(UserCreate):
 
 ---
 
-### 索引优化最佳实践（2026 年版）
+## 索引优化最佳实践（2026 年版）
 
 索引是查询性能的灵魂，以下是核心原则：
 
@@ -165,7 +176,7 @@ class UserResponse(UserCreate):
 
 ---
 
-### 高可用架构方案
+## 高可用架构方案
 
 | 方案 | 特点 | 适用场景 |
 |------|------|----------|
@@ -178,7 +189,7 @@ class UserResponse(UserCreate):
 
 ---
 
-### 性能调优核心参数
+## 性能调优核心参数
 
 ```ini
 # my.cnf 核心配置
@@ -202,7 +213,7 @@ long_query_time = 1
 
 ---
 
-### 与 PostgreSQL 对比
+## 与 PostgreSQL 对比
 
 | 维度 | MySQL | PostgreSQL |
 |------|-------|------------|
@@ -214,7 +225,7 @@ long_query_time = 1
 
 ---
 
-### 学习路线建议
+## 学习路线建议
 
 | 阶段 | 内容 | 时长 |
 |------|------|------|

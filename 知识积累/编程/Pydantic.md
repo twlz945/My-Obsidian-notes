@@ -1,8 +1,19 @@
+---
+title: Pydantic
+date: 2026-10-01
+tags:
+  - Python
+  - Pydantic
+  - 数据验证
+---
+
+# Pydantic
+
 **Pydantic 是一个基于 Python 类型提示的数据验证与序列化库**，核心通过继承 `BaseModel` 定义数据结构，在实例化时自动校验、转换输入数据，并支持导出为字典、JSON 和 JSON Schema。 V2 版本核心验证逻辑由 Rust 重写，性能较 V1 提升 5–50 倍。
 
 ---
 
-### 为什么用它
+## 为什么用它
 
 - **声明式定义**：直接用 Python 类型注解描述数据，无需手写大量 `isinstance` 和 `if` 校验。
 - **自动转换**：宽松模式下可将 `"123"` 转为 `int`、字符串日期转为 `datetime` 等。
@@ -11,7 +22,7 @@
 
 ---
 
-### 基础用法
+## 基础用法
 
 ```python
 from pydantic import BaseModel, Field, ValidationError
@@ -36,7 +47,7 @@ except ValidationError as e:
 
 ---
 
-### V2 核心 API
+## V2 核心 API
 
 |功能|V2 方法|说明|
 |---|---|---|
@@ -51,7 +62,7 @@ except ValidationError as e:
 
 ---
 
-### 字段约束示例
+## 字段约束示例
 
 ```python
 from pydantic import BaseModel, Field
@@ -65,7 +76,7 @@ class Product(BaseModel):
 
 ---
 
-### 模型配置
+## 模型配置
 
 ```python
 from pydantic import BaseModel, ConfigDict
@@ -81,7 +92,7 @@ class StrictModel(BaseModel):
 
 ---
 
-### 自定义验证器
+## 自定义验证器
 
 ```python
 from pydantic import BaseModel, field_validator, model_validator
@@ -106,7 +117,7 @@ class Order(BaseModel):
 
 ---
 
-### 与 FastAPI 集成
+## 与 FastAPI 集成
 
 ```python
 from fastapi import FastAPI
@@ -128,7 +139,7 @@ FastAPI 会自动完成请求体解析、校验，并生成 Swagger 文档。
 
 ---
 
-### V1 → V2 主要变化
+## V1 → V2 主要变化
 
 |V1|V2|
 |---|---|
@@ -142,7 +153,7 @@ FastAPI 会自动完成请求体解析、校验，并生成 Swagger 文档。
 
 ---
 
-### 使用建议
+## 使用建议
 
 - **新项目直接用 V2**，性能更好、API 更统一。
 - 可变默认值（`list`、`dict`）必须用 `default_factory`，避免共享引用。

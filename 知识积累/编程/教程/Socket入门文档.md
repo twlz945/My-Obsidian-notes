@@ -1,6 +1,10 @@
 ---
+title: Socket 入门文档
+date: 2026-10-01
 tags:
-  - TCP
+  - 网络编程
+  - Socket
+  - 教程
 ---
 # Socket 入门文档
 

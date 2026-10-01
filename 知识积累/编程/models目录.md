@@ -1,14 +1,25 @@
+---
+title: models 目录
+date: 2026-09-26
+tags:
+  - Python
+  - 项目架构
+  - 后端开发
+---
+
+# models 目录
+
 `models/` 目录是复杂 Python 项目的**数据结构定义中心**，它的核心职责是**只定义数据结构与校验规则，绝不掺杂业务逻辑**（业务逻辑应放在 `services/` 层）。
 
-### 1. 核心职责与原则
+## 1. 核心职责与原则
 
 - **只定义数据契约**：明确项目中的实体（如用户、订单、商品）有哪些字段、字段类型、默认值、校验规则。
 - **零业务逻辑**：不包含任何流程控制、数据库操作或复杂计算，仅作为数据载体。
 - **跨层复用**：`api` 层用模型做参数校验，`services` 层用模型做数据传递，`repositories` 层用模型做 ORM 映射。
 
-### 2. 推荐实现方式（2026年主流方案）
+## 2. 推荐实现方式（2026年主流方案）
 
-#### 方案一：Pydantic（推荐，适用于 Web 项目 / 数据校验场景）
+### 方案一：Pydantic（推荐，适用于 Web 项目 / 数据校验场景）
 
 适合 [[FastAPI]]、[[Flask]] 等框架，自带数据校验、序列化、类型检查能力：
 
@@ -34,7 +45,7 @@ class UserResponse(UserBase):
         from_attributes = True  # 兼容 ORM 模式
 ```
 
-#### 方案二：dataclass（适用于纯 Python 项目 / 轻量级场景）
+### 方案二：dataclass（适用于纯 Python 项目 / 轻量级场景）
 
 适合不需要 Web 框架、仅需数据载体的场景，依赖 Python 标准库：
 
@@ -65,7 +76,7 @@ class Order:
         self.total_amount = sum(item.price * item.quantity for item in self.items)
 ```
 
-#### 方案三：SQLAlchemy ORM 模型（适用于数据库映射场景）
+### 方案三：SQLAlchemy ORM 模型（适用于数据库映射场景）
 
 如果项目直接使用 SQLAlchemy，模型层也可同时作为 ORM 映射类：
 
@@ -87,7 +98,7 @@ class Product(Base):
     created_at = Column(DateTime, default=datetime.now)
 ```
 
-### 3. 目录内文件组织建议
+## 3. 目录内文件组织建议
 
 按业务实体拆分文件，避免单个文件过大：
 
@@ -111,7 +122,7 @@ from .product import Product
 __all__ = ["UserBase", "UserResponse", "Order", "OrderItem", "Product"]
 ```
 
-### 4. 常见误区与避坑指南
+## 4. 常见误区与避坑指南
 
 - **不要在模型里写数据库操作**：比如 `User.save()`、`Order.query_all()` 这类方法应放在 `repositories/` 层。
 - **不要在模型里写复杂业务计算**：比如 `Order.calculate_discount()` 应放在 `services/` 层，模型仅做简单数据计算。

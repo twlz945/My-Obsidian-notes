@@ -1,3 +1,12 @@
+---
+title: JSON
+date: 2026-09-26
+tags:
+  - 数据格式
+  - JSON
+  - 后端开发
+---
+
 # JSON
 
 ## 定义
@@ -124,6 +133,48 @@ JSON 字符串中支持的转义字符：
   "active": true,
   "metadata": null
 }
+```
+
+### 各语言解析示例
+
+**Python**
+
+```python
+import json
+
+# 解析 JSON 字符串
+data = json.loads('{"name": "Alice", "age": 25}')
+print(data["name"])  # Alice
+
+# 转换为 JSON 字符串
+print(json.dumps({"name": "Bob", "age": 30}, ensure_ascii=False, indent=2))
+```
+
+**JavaScript**
+
+```javascript
+const data = JSON.parse('{"name": "Alice", "age": 25}');
+console.log(data.name); // Alice
+
+const jsonStr = JSON.stringify({ name: "Bob", age: 30 }, null, 2);
+console.log(jsonStr);
+```
+
+**Java**
+
+```java
+import com.google.gson.Gson;
+
+Gson gson = new Gson();
+
+// 解析 JSON
+Map data = gson.fromJson("{\"name\": \"Alice\", \"age\": 25}", Map.class);
+
+// 转换为 JSON
+Map<String, Object> map = new HashMap<>();
+map.put("name", "Bob");
+map.put("age", 30);
+String jsonStr = gson.toJson(map);
 ```
 
 ## 应用场景
