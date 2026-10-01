@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "我的想法"
             }
-          },
-          {
-            "id": "f0bff9530916507e",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "游戏开发/规划/学习路线.md",
-                "bFile": "游戏开发/规划/学习路线.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 学习路线  (Working Tree)"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏开发/规划/我的想法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏开发/规划/我的想法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -175,6 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "游戏开发/规划/我的想法.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -194,9 +182,7 @@
                   "openTabs": [
                     {
                       "tabId": "tab-1790848088153-18nndo3",
-                      "conversationId": null,
-                      "draftModel": "opencode:deepseek/deepseek-flash",
-                      "providerId": "opencode"
+                      "conversationId": "conv-1790866085142-cvchwjfca"
                     }
                   ],
                   "activeTabId": "tab-1790848088153-18nndo3"
@@ -231,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,35 +234,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0bff9530916507e",
+  "active": "322b2b36bdd4faab",
   "lastOpenFiles": [
+    "游戏开发/规划/学习规划.md",
+    "知识积累/编程/网络/UDP.md",
+    "知识积累/编程/教程/Python进阶阶段学习规划表.md",
+    "游戏开发/规划/我的想法.md",
+    "游戏开发/规划/未命名.canvas",
+    "知识积累/编程/网络/TCP.md",
+    "知识积累/编程/MySQL.md",
+    "知识积累/编程/models目录.md",
+    "知识积累/编程/Flask.md",
+    "知识积累/编程/网络/网络.md",
+    "知识积累/编程/编程.md",
     "知识积累/编辑/Markdown语法.md",
     "知识积累/编辑/Obsidian 快捷键.md",
     "知识积累/编辑/双向链接.md",
-    "游戏开发/规划/我的想法.md",
-    "游戏开发/规划/学习规划.md",
-    "游戏开发/规划/未命名.canvas",
     "copilot/skills/copilot-fetch-x/SKILL.md",
     "2026/10/01.md",
     "2026/10",
     "知识积累/编程/JSON.md",
-    "知识积累/编程/编程.md",
     "知识积累/编程/__init__.py.md",
     "知识积累/编程/控制反转.md",
     "知识积累/编程/教程/教程.md",
-    "知识积累/编程/网络/网络.md",
     "知识积累/编程/教程/教程目录.md",
     "知识积累/编程/网络/网络目录.md",
     "知识积累/编程/编程目录.md",
     "知识积累/编程/教程/index.md",
     "知识积累/编程/index.md",
     "知识积累/编程/网络/index.md",
-    "知识积累/编程/Flask.md",
     "知识积累/编程/未命名.md",
-    "知识积累/编程/未命名 1.md",
-    "知识积累/编程/教程/Python进阶阶段学习规划表.md",
-    "知识积累/编程/__mv_a2__.md",
-    "知识积累/编程/__mv_b__.md",
     "未命名",
     "游戏开发/规划",
     "游戏开发",

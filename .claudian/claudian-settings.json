@@ -72,23 +72,23 @@
       "thinkingOptionsByModel": {
         "deepseek/deepseek-flash": [
           {
-            "label": "None",
+            "label": "none",
             "value": "none"
           },
           {
-            "label": "Low",
+            "label": "low",
             "value": "low"
           },
           {
-            "label": "High",
+            "label": "high",
             "value": "high"
           },
           {
-            "label": "Max",
+            "label": "max",
             "value": "max"
           },
           {
-            "label": "Default",
+            "label": "default",
             "value": "default"
           }
         ]
