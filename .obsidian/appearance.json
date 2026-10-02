@@ -1,9 +1,10 @@
 {
   "showRibbon": true,
   "nativeMenus": false,
-  "cssTheme": "Willemstad",
-  "theme": "moonstone",
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian",
   "baseFontSizeAction": true,
   "baseFontSize": 18,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "accentColor": "#25d40a"
 }

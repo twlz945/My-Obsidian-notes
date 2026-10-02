@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7fc6e1babc8be2bd",
+        "id": "dfa58b09b4b8f490",
         "type": "tabs",
         "children": [
           {
-            "id": "7d7ba111a394bdbf",
+            "id": "4410848c0117de1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂记/CE-TX 手法.md",
-                "mode": "source",
+                "file": "游戏开发/规划/我的想法.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CE-TX 手法"
-            }
-          },
-          {
-            "id": "ad3fee0dd4a00c2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识积累/编辑/Obsidian 样式测试.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian 样式测试"
+              "title": "我的想法"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识积累/编辑/Obsidian 样式测试.md",
+                "file": "游戏开发/规划/我的想法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,55 +234,21 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "floating": {
-    "id": "ec97febac6a7ed8f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "448a0ec2ba5a902e",
-        "type": "window",
-        "children": [
-          {
-            "id": "342ef517782675d5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "cc551dbd63432b89",
-                "type": "leaf",
-                "state": {
-                  "type": "style-manager-view",
-                  "state": {},
-                  "icon": "paintbrush",
-                  "title": "Style manager"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 810,
-        "y": 48,
-        "width": 1207,
-        "height": 966,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
   "active": "322b2b36bdd4faab",
   "lastOpenFiles": [
-    "知识积累/编辑/Obsidian 快捷键.md",
+    "游戏开发/规划/学习规划.md",
+    "游戏开发/规划/我的想法.md",
+    "游戏开发/规划/未命名.canvas",
     "知识积累/编辑/Obsidian 样式测试.md",
+    "知识积累/编程/控制反转.md",
+    "知识积累/编程/依赖注入.md",
+    "杂记/CE-TX 手法.md",
+    "知识积累/编辑/Obsidian 快捷键.md",
     "知识积累/编辑/Markdown语法.md",
     "知识积累/编辑/双向链接.md",
-    "游戏开发/规划/我的想法.md",
-    "游戏开发/规划/学习规划.md",
     "知识积累/编程/JSON.md",
-    "知识积累/编程/依赖注入.md",
     "知识积累/编程/__init__.py.md",
     "杂记/Drawing 2026-10-02 07.27.16.excalidraw.md",
-    "杂记/CE-TX 手法.md",
-    "游戏开发/规划/未命名.canvas",
     "杂记/Pasted image 20261002072708.png",
     "杂记/Pasted image 20261002072708_0.png",
     "Excalidraw/Drawing 2026-10-02 07.20.32.excalidraw.md",
@@ -312,10 +263,8 @@
     "copilot/skills/copilot-fetch-x/SKILL.md",
     "2026/10/01.md",
     "2026/10",
-    "知识积累/编程/控制反转.md",
     "知识积累/编程/教程/教程.md",
     "知识积累/编程/教程/教程目录.md",
-    "知识积累/编程/网络/网络目录.md",
     "未命名",
     "游戏开发/规划",
     "游戏开发",
