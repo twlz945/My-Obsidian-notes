@@ -1,0 +1,23 @@
+{
+  "V1-Willemstad-Colours@@ssopt-theme-contrast-light": false,
+  "V1-Willemstad-Colours@@color-rainbow-l-presets": "ssopt-col-rainbow-l-tokyo-night",
+  "V1-Willemstad-Colours@@color-base-l-l-presets": "ssopt-col-base-lightness-l-flexoki",
+  "V1-Willemstad-Colours@@color-accent-l-ch-presets": "ssopt-col-accent-l-nord-2",
+  "V1-Willemstad-Colours@@color-base-l-ch-presets": "ssopt-col-base-tone-l-seafoam-whisper",
+  "V1-Willemstad-Colours@@ssopt-custom-rainbow-colours-light": false,
+  "V1-Willemstad-Colours@@col-selection-l-presets": "ssopt-sel-l-le-corbusier-sky",
+  "V1-Willemstad-Colours@@ssopt-custom-accent-colours-light": false,
+  "V1-Willemstad-Ancillaries@@infobox-title-font-size": "var(--h2-size)",
+  "V1-Willemstad-Editor@@file-header-justify": "left",
+  "V1-Willemstad-Editor@@ssopt-add-header-number": true,
+  "V1-Willemstad-Editor@@ssopt-no-coloured-headers": false,
+  "V1-Willemstad-Editor@@ssopt-headers-old-willemstad": true,
+  "V1-Willemstad-Editor@@ssopt-headers-old-style-col-palette": "ssopt-headers-old-style-nord",
+  "V1-Willemstad-Editor@@h1-variant": "normal",
+  "V1-Willemstad-Editor@@ssopt-smaller-header-hexes": false,
+  "V1-Willemstad-Editor@@ssopt-highlight-no-box-shadow": false,
+  "V1-Willemstad-Editor@@ssopt-headers-custom-colours": false,
+  "V1-Willemstad-Editor@@ssopt-typ-highlight-col-original": false,
+  "V1-Willemstad-Editor@@ssopt-not-seamless-embeds": false,
+  "V1-Willemstad-Colours@@color-base-d-l-presets": "ssopt-col-base-lightness-d-glow"
+}

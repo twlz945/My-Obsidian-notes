@@ -1,9 +1,8 @@
 {
-  "accentColor": "#0f5ca3",
   "showRibbon": true,
   "nativeMenus": false,
-  "cssTheme": "Border",
-  "theme": "obsidian",
+  "cssTheme": "Willemstad",
+  "theme": "moonstone",
   "baseFontSizeAction": true,
   "baseFontSize": 18,
   "showViewHeader": true
