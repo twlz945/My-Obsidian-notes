@@ -146,5 +146,5 @@ tags:
 
 ## 相关
 
-- [[用 Python 搭建复杂项目]]
+- [[python/用 Python 搭建复杂项目]]
 - [[FastAPI]]

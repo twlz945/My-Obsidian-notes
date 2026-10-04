@@ -3,8 +3,8 @@ title: Pydantic
 date: 2026-10-01
 tags:
   - Python
+  - 后端开发
   - Pydantic
-  - 数据验证
 ---
 
 # Pydantic

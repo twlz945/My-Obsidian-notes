@@ -2,11 +2,9 @@
 title: Markdown 语法
 date: 2026-09-25
 tags:
-  - Markdown
   - 编辑
-  - 语法
+  - Markdown
   - Obsidian
-  - 插件
 ---
 
 # Markdown 语法

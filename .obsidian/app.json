@@ -7,5 +7,7 @@
   "attachmentFolderPath": "./",
   "defaultViewMode": "preview",
   "showInlineTitle": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "focusNewTab": false,
+  "newLinkFormat": "relative"
 }

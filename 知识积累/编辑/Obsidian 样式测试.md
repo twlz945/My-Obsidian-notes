@@ -2,10 +2,8 @@
 title: Obsidian 样式测试
 date: 2026-10-02
 tags:
+  - 编辑
   - Obsidian
-  - 主题
-  - 样式
-  - 测试
 aliases:
   - 主题样式测试
   - Obsidian Style Test

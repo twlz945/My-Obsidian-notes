@@ -5,18 +5,40 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#索引  ",
+      "color": {
+        "a": 1,
+        "rgb": 3887080
+      }
+    },
+    {
+      "query": "path:知识积累/编程/语言  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:知识积累/编程/教程  ",
+      "color": {
+        "a": 1,
+        "rgb": 9211020
+      }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.85153757225434,
+  "lineSizeMultiplier": 0.292601156069364,
+  "collapse-forces": false,
+  "centerStrength": 0.499884393063584,
+  "repelStrength": 17.1245620393863,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.9999999999999922,
-  "close": true
+  "linkDistance": 30,
+  "scale": 0.34394895147351096,
+  "close": false
 }

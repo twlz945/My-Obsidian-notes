@@ -135,4 +135,4 @@ project_root/
 ## 相关
 
 - [[FastAPI]]
-- [[用 Python 搭建复杂项目]]
+- [[../教程/python/用 Python 搭建复杂项目]]
