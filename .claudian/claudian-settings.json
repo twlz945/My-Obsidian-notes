@@ -68,7 +68,9 @@
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
-      "preferredThinkingByModel": {},
+      "preferredThinkingByModel": {
+        "deepseek/deepseek-flash": "low"
+      },
       "thinkingOptionsByModel": {
         "deepseek/deepseek-flash": [
           {
@@ -118,7 +120,9 @@
   "settingsProvider": "claude",
   "lastSelectedChatModel": null,
   "savedProviderModel": {},
-  "savedProviderEffort": {},
+  "savedProviderEffort": {
+    "opencode": "low"
+  },
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
     "claude": "auto"

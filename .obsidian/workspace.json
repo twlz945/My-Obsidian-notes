@@ -27,26 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识积累/编程/教程/python/python库/Python json 库.md",
+                "file": "2026/10/04.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04"
+            }
+          },
+          {
+            "id": "4eea2fbdc4e7905e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏开发/规划/我的想法.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python json 库"
-            }
-          },
-          {
-            "id": "d5605ed97d05b146",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/Basic_selectors",
-                "title": "CSS 选择器 - 学习 Web 开发 | MDN",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "CSS 选择器 - 学习 Web 开发 | MDN"
+              "title": "我的想法"
             }
           },
           {
@@ -55,30 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂记/学习笔记/固定步长练习.md",
-                "mode": "source",
+                "file": "知识积累/编程/教程/python/python库/Python dataclasses 库.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "固定步长练习"
+              "title": "Python dataclasses 库"
             }
           },
           {
-            "id": "98856403214d3c03",
+            "id": "626c2099e163646e",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference/Elements/ol",
-                "title": "<ol> - HTML（超文本标记语言） | MDN",
-                "mode": "webview"
+                "file": "杂记/学习笔记/Python 笔记.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "<ol> - HTML（超文本标记语言） | MDN"
+              "icon": "lucide-file",
+              "title": "Python 笔记"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识积累/编程/教程/python/python库/Python json 库.md",
+                "file": "游戏开发/规划/我的想法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识积累/编程/教程/python/python库/Python json 库.md",
+                "file": "杂记/学习笔记/Python 笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -259,10 +259,22 @@
                   "openTabs": [
                     {
                       "tabId": "tab-1790848088153-18nndo3",
+                      "conversationId": "conv-1791073181389-sjpa99e73"
+                    },
+                    {
+                      "tabId": "tab-1791076245795-j2enbsi",
+                      "conversationId": "conv-1791076302728-7nrg6jj37"
+                    },
+                    {
+                      "tabId": "tab-1791089352316-q0lv1p8",
                       "conversationId": "conv-1790866085142-cvchwjfca"
+                    },
+                    {
+                      "tabId": "tab-1791100040290-als3xuw",
+                      "conversationId": "conv-1791100088489-6xr2xr6sy"
                     }
                   ],
-                  "activeTabId": "tab-1790848088153-18nndo3"
+                  "activeTabId": "tab-1791100040290-als3xuw"
                 }
               },
               "icon": "bot",
@@ -274,7 +286,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.87493896484375
+    "width": 369.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,8 +305,18 @@
   },
   "active": "322b2b36bdd4faab",
   "lastOpenFiles": [
-    "知识积累/编程/教程/python/Python 文件读写.md",
+    "知识积累/编程/教程/python/python库/Python dataclasses 库.md",
+    "杂记/学习笔记/Python 笔记.md",
     "知识积累/编程/教程/python/python库/Python json 库.md",
+    "游戏开发/规划/我的想法.md",
+    "2026/10/04.md",
+    "知识积累/编程/教程/python/Python 文件读写.md",
+    "知识积累/编程/教程/python/Python进阶阶段学习规划表.md",
+    "知识积累/编程/教程/教程.md",
+    "游戏开发/开发记录/小随笔.md",
+    "游戏开发/开发记录",
+    "游戏开发/规划/学习规划.md",
+    "杂记/学习笔记/固定步长练习.md",
     "杂记/学习笔记/JavaScript 笔记.md",
     "知识积累/编程/教程/前端/PHP入门文档.md",
     "知识积累/编程/教程/未命名.md",
@@ -302,9 +324,7 @@
     "知识积累/编程/教程/前端",
     "知识积累/编程/教程/python",
     "杂记/未命名.canvas",
-    "游戏开发/规划/学习规划.md",
     "知识积累/编程/教程/python/python库",
-    "杂记/学习笔记/固定步长练习.md",
     "杂记/学习笔记/CSS 笔记.md",
     "杂记/学习笔记/未命名.canvas",
     "知识积累/未命名.md",
@@ -319,19 +339,11 @@
     "知识积累/编程/教程/前端/TypeScript入门文档.md",
     "知识积累/编程/教程/前端/CSS入门文档.md",
     "知识积累/编程/游戏开发/Game Programming Patterns.md",
-    "知识积累/编程/前端/Vite.md",
-    "知识积累/编程/游戏开发/游戏开发.md",
-    "知识积累/编辑/Obsidian 样式测试.md",
-    "知识积累/编辑/Obsidian 快捷键.md",
-    "知识积累/编程/教程/python/Python 网络编程教程.md",
-    "知识积累/编程/游戏开发/存档序列化与版本迁移.md",
-    "知识积累/编程/前端/前端工程化.md",
     "知识积累/编程/教程/笔记",
     "游戏开发/规划/未命名.canvas",
     "知识积累/编程/游戏开发",
     "知识积累/编程/架构与工程",
     "知识积累/编程/后端",
-    "知识积累/编程/数据格式",
     "Greg/chemical_reactor_ethylene_from_glycerol.png",
     "Greg/chemical_reactor_ethylene_from_ethanol.png",
     "杂记/Pasted image 20261002072708.png",
