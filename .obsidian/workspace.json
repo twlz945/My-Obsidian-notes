@@ -62,9 +62,37 @@
               "icon": "lucide-file",
               "title": "Python Textual 库"
             }
+          },
+          {
+            "id": "17a6428e193725f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识积累/编程/教程/Git入门文档.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git入门文档"
+            }
+          },
+          {
+            "id": "37d1e3a7b780d73a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识积累/编程/教程/Vim入门文档.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vim入门文档"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -262,21 +290,37 @@
                     {
                       "tabId": "tab-1793458305020-dg144gu",
                       "conversationId": "conv-1793458332661-pk8p2hqzr"
+                    },
+                    {
+                      "tabId": "tab-1793489631233-lg79ber",
+                      "conversationId": "conv-1793489662114-px1s3c0ij"
                     }
                   ],
-                  "activeTabId": "tab-1793458305020-dg144gu"
+                  "activeTabId": "tab-1793489631233-lg79ber"
                 }
               },
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "6e05f75fe24cc7ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "知识积累/编程/教程/Vim入门文档.md"
+              },
+              "icon": "lucide-info",
+              "title": "笔记属性"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 602.5
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,13 +337,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "322b2b36bdd4faab",
+  "active": "37d1e3a7b780d73a",
   "lastOpenFiles": [
-    "杂记/学习笔记/TUI/TUI 笔记.md",
-    "杂记/学习笔记/TUI/ANSI 转义序列.md",
-    "杂记/学习笔记/TUI/终端输出.md",
-    "知识积累/编程/教程/python/python库/Python urwid 库.md",
+    "知识积累/编程/教程/Git入门文档.md",
+    "知识积累/编程/教程/Vim入门文档.md",
     "知识积累/编程/教程/python/python库/Python Textual 库.md",
+    "杂记/未命名.canvas",
+    "知识积累/编程/教程/教程.md",
+    "知识积累/编辑/Obsidian 快捷键.md",
+    "知识积累/编程/教程/python/python库/Python urwid 库.md",
+    "知识积累/编辑/Obsidian 样式测试.md",
+    "未命名.md",
+    "杂记/学习笔记/TUI/ANSI 转义序列.md",
+    "杂记/学习笔记/TUI/TUI 笔记.md",
+    "杂记/学习笔记/TUI/终端输出.md",
     "知识积累/编程/教程/python/python库/Python dataclasses 库.md",
     "知识积累/编程/前端/全屏终端界面 TUI.md",
     "2026/10/31.md",
@@ -310,7 +361,6 @@
     "2026/10/04.md",
     "知识积累/编程/教程/python/Python 文件读写.md",
     "知识积累/编程/教程/python/Python进阶阶段学习规划表.md",
-    "知识积累/编程/教程/教程.md",
     "游戏开发/开发记录/小随笔.md",
     "游戏开发/开发记录",
     "游戏开发/规划/学习规划.md",
@@ -321,15 +371,9 @@
     "知识积累/编程/教程/网络",
     "知识积累/编程/教程/前端",
     "知识积累/编程/教程/python",
-    "杂记/未命名.canvas",
     "知识积累/编程/教程/python/python库",
-    "杂记/学习笔记/CSS 笔记.md",
     "杂记/学习笔记/未命名.canvas",
-    "知识积累/未命名.md",
     "杂记/学习笔记",
-    "Excalidraw/Drawing 2026-10-02 07.20.32.excalidraw.md",
-    "知识积累/编程/游戏开发/固定步长循环.md",
-    "知识积累/编程/教程/前端/JavaScript入门文档.md",
     "知识积累/编程/教程/笔记",
     "游戏开发/规划/未命名.canvas",
     "知识积累/编程/游戏开发",
