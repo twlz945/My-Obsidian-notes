@@ -1,13 +1,15 @@
 ---
 date: 2026-10-04
 ---
-# dataclasses
+# Python 笔记
+
+## dataclasses
 
 `dataclasses` 是 Python 3.7+ 标准库。用 `@dataclass` 装饰「以存数据为主」的类，自动生成 `__init__`、`__repr__`、`__eq__` 等方法，省去样板代码。
 
 > 完整讲解与示例见 [[Python dataclasses 库]]。本笔记只作速查。
 
-## 最小示例
+### 最小示例
 
 ```python
 from dataclasses import dataclass
@@ -23,7 +25,7 @@ u == User("Alice", 30)     # True
 
 字段用 `名称: 类型 = 默认值` 声明，顺序即 `__init__` 参数顺序。
 
-## 自动生成的方法
+### 自动生成的方法
 
 | 方法 | 作用 | 控制参数 |
 | --- | --- | --- |
@@ -35,7 +37,7 @@ u == User("Alice", 30)     # True
 | `__match_args__` | 支持 `match` 模式匹配（3.10+） | `match_args` |
 | `__slots__` | 限制实例属性、省内存（3.10+） | `slots` |
 
-### 三者要点
+#### 三者要点
 
 - **`__init__`**：类中已定义则忽略生成；`init=False` 的字段不进参数；**不会调用基类 `__init__`**（需在 `__post_init__` 里手动 `super().__init__()`）。
 - **`__repr__`**：`field(repr=False)` 的字段不显示；自定义 `__repr__` 会覆盖生成版本。
@@ -43,7 +45,7 @@ u == User("Alice", 30)     # True
 
 > 注意：这三者（及各方法）若类中已存在，装饰器通常不会覆盖，对应参数被忽略。
 
-## 装饰器参数
+### 装饰器参数
 
 | 参数 | 作用 | 默认 |
 | --- | --- | --- |
@@ -58,7 +60,7 @@ u == User("Alice", 30)     # True
 | `slots` | 生成 `__slots__`（3.10+） | `False` |
 | `weakref_slot` | 加 `__weakref__` 槽（3.11+，需 `slots=True`） | `False` |
 
-## `field()` 参数
+### `field()` 参数
 
 | 参数 | 作用 | 默认 |
 | --- | --- | --- |
@@ -72,7 +74,7 @@ u == User("Alice", 30)     # True
 | `kw_only` | 该字段强制关键字传参（3.10+） | `MISSING` |
 | `doc` | 字段文档字符串（3.14+） | `None` |
 
-## 特性速查
+### 特性速查
 
 | 特性 | 作用 |
 | --- | --- |
@@ -88,7 +90,7 @@ u == User("Alice", 30)     # True
 | `make_dataclass()` | 动态创建数据类 |
 | `is_dataclass()` | 判断是否数据类或其实例 |
 
-## 常用片段
+### 常用片段
 
 ```python
 from dataclasses import dataclass, field, asdict, replace
@@ -124,7 +126,7 @@ asdict(Point(1, 2))        # {'x': 1, 'y': 2}
 replace(Point(1, 2), y=9)  # Point(x=1, y=9)
 ```
 
-## 注意点
+### 注意点
 
 1. **不校验类型**：`User("Alice", "30")` 也合法，注解只是声明。
 2. **默认值顺序**：有默认值的字段不能排在无默认值之前，否则 `TypeError`。
@@ -136,3 +138,7 @@ replace(Point(1, 2), y=9)  # Point(x=1, y=9)
 8. **`asdict()` 是深拷贝**：大对象有性能开销。
 9. **`slots=True` 不能动态加属性**；类中已有 `__slots__` 会 `TypeError`。
 10. **子类也要加 `@dataclass`**，否则不会处理新字段。
+
+## 相关笔记
+
+- [[TUI/TUI 笔记]]

@@ -8,77 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7bc2376e0a4a23f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识积累/编程/教程/python/Python 文件读写.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python 文件读写"
-            }
-          },
-          {
-            "id": "695fe5f0f9ef2160",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026/10/04.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "04"
-            }
-          },
-          {
-            "id": "4eea2fbdc4e7905e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏开发/规划/我的想法.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "我的想法"
-            }
-          },
-          {
-            "id": "5a89091e67091097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识积累/编程/教程/python/python库/Python dataclasses 库.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python dataclasses 库"
-            }
-          },
-          {
             "id": "626c2099e163646e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂记/学习笔记/Python 笔记.md",
+                "file": "杂记/学习笔记/TUI/TUI 笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TUI 笔记"
+            }
+          },
+          {
+            "id": "4b2f3a775736f36c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂记/学习笔记/TUI/ANSI 转义序列.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python 笔记"
+              "title": "ANSI 转义序列"
+            }
+          },
+          {
+            "id": "ebec7fd561f07ad0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识积累/编程/教程/python/python库/Python urwid 库.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python urwid 库"
+            }
+          },
+          {
+            "id": "d3d560ad0ef72ac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识积累/编程/教程/python/python库/Python Textual 库.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python Textual 库"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,9 +258,13 @@
                     {
                       "tabId": "tab-1791100040290-als3xuw",
                       "conversationId": "conv-1791100088489-6xr2xr6sy"
+                    },
+                    {
+                      "tabId": "tab-1793458305020-dg144gu",
+                      "conversationId": "conv-1793458332661-pk8p2hqzr"
                     }
                   ],
-                  "activeTabId": "tab-1791100040290-als3xuw"
+                  "activeTabId": "tab-1793458305020-dg144gu"
                 }
               },
               "icon": "bot",
@@ -286,7 +276,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 602.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -305,7 +295,15 @@
   },
   "active": "322b2b36bdd4faab",
   "lastOpenFiles": [
+    "杂记/学习笔记/TUI/TUI 笔记.md",
+    "杂记/学习笔记/TUI/ANSI 转义序列.md",
+    "杂记/学习笔记/TUI/终端输出.md",
+    "知识积累/编程/教程/python/python库/Python urwid 库.md",
+    "知识积累/编程/教程/python/python库/Python Textual 库.md",
     "知识积累/编程/教程/python/python库/Python dataclasses 库.md",
+    "知识积累/编程/前端/全屏终端界面 TUI.md",
+    "2026/10/31.md",
+    "杂记/学习笔记/TUI",
     "杂记/学习笔记/Python 笔记.md",
     "知识积累/编程/教程/python/python库/Python json 库.md",
     "游戏开发/规划/我的想法.md",
@@ -332,18 +330,10 @@
     "Excalidraw/Drawing 2026-10-02 07.20.32.excalidraw.md",
     "知识积累/编程/游戏开发/固定步长循环.md",
     "知识积累/编程/教程/前端/JavaScript入门文档.md",
-    "知识积累/编程/教程/前端/HTML入门文档.md",
-    "知识积累/编程/语言/HTML.md",
-    "知识积累/编程/语言/CSS.md",
-    "知识积累/编程/语言/TypeScript.md",
-    "知识积累/编程/教程/前端/TypeScript入门文档.md",
-    "知识积累/编程/教程/前端/CSS入门文档.md",
-    "知识积累/编程/游戏开发/Game Programming Patterns.md",
     "知识积累/编程/教程/笔记",
     "游戏开发/规划/未命名.canvas",
     "知识积累/编程/游戏开发",
     "知识积累/编程/架构与工程",
-    "知识积累/编程/后端",
     "Greg/chemical_reactor_ethylene_from_glycerol.png",
     "Greg/chemical_reactor_ethylene_from_ethanol.png",
     "杂记/Pasted image 20261002072708.png",
