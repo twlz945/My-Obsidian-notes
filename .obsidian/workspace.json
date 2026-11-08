@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "知识积累/编程/教程/Git入门文档.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -306,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
