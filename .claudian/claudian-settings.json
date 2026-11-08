@@ -68,7 +68,9 @@
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
-      "preferredThinkingByModel": {},
+      "preferredThinkingByModel": {
+        "deepseek/deepseek-flash": "low"
+      },
       "thinkingOptionsByModel": {
         "deepseek/deepseek-flash": [
           {
@@ -98,7 +100,7 @@
       ],
       "selectedModels": [
         {
-          "label": "deepseek/DeepSeek V4.1 Flash",
+          "label": "deepseek/DeepSeek V4.1 Flash 1017",
           "rawId": "deepseek/deepseek-flash"
         }
       ]
@@ -118,7 +120,9 @@
   "settingsProvider": "claude",
   "lastSelectedChatModel": null,
   "savedProviderModel": {},
-  "savedProviderEffort": {},
+  "savedProviderEffort": {
+    "opencode": "low"
+  },
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
     "claude": "auto"
@@ -130,7 +134,7 @@
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
-  "enableZenMode": true,
+  "enableZenMode": false,
   "enableDualPane": true,
   "dualPaneSide": "right",
   "restoreTabsOnStartup": true,
