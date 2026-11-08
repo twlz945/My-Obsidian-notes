@@ -4,6 +4,8 @@ related:
   - "[[Python 笔记]]"
   - "[[Python Textual 库]]"
   - "[[Python urwid 库]]"
+  - "[[Python curses 库]]"
+  - "[[Python msvcrt 库]]"
 tags:
   - python
   - tui
@@ -57,6 +59,8 @@ curses.wrapper(main)                   # 自动初始化/恢复终端
 - 终端是 `行 × 列` 的字符网格，坐标写作 `(y, x)`。
 - `refresh()` 把缓冲区内容刷到屏幕，频繁全量重绘会闪烁。
 - `curses.wrapper()` 负责异常时恢复终端状态，避免终端「坏掉」。
+
+完整用法见 [[Python curses 库]]。
 
 ## `textual` 最小示例
 
