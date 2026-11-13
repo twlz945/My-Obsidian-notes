@@ -53,14 +53,14 @@
             "id": "ebec7fd561f07ad0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "知识积累/编程/教程/Git入门文档.md",
-                "mode": "preview",
-                "source": false
+                "aFile": "知识积累/编程/教程/Git入门文档.md",
+                "bFile": "知识积累/编程/教程/Git入门文档.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Git入门文档"
+              "icon": "diff",
+              "title": "Diff: Git入门文档  (Working Tree)"
             }
           },
           {
@@ -289,8 +289,8 @@
                   "activeTabId": "tab-1791100040290-als3xuw"
                 }
               },
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           },
           {
@@ -306,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -329,6 +329,8 @@
   },
   "active": "ebec7fd561f07ad0",
   "lastOpenFiles": [
+    "2026/11/13.md",
+    "知识积累/编程/教程/Git入门文档.md",
     "2026/11/01.md",
     "知识积累/编程/教程/python/Python 列表.md",
     "知识积累/编程/教程/python/Python 字典.md",
@@ -343,7 +345,6 @@
     "杂记/学习笔记/VS code 常用快捷键.md",
     "知识积累/编程/教程/python/python库/Python urwid 库.md",
     "未命名.md",
-    "知识积累/编程/教程/Git入门文档.md",
     "知识积累/编程/教程/Vim入门文档.md",
     "知识积累/编程/教程/python/python库/Python Textual 库.md",
     "杂记/未命名.canvas",
@@ -357,7 +358,6 @@
     "杂记/学习笔记/Python 笔记.md",
     "知识积累/编程/教程/python/python库/Python json 库.md",
     "游戏开发/规划/我的想法.md",
-    "2026/10/04.md",
     "游戏开发/开发记录",
     "知识积累/编程/教程/网络",
     "知识积累/编程/教程/前端",
