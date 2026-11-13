@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b5d4c436af775a6c",
+        "id": "7700f97d3525b6a3",
         "type": "tabs",
         "children": [
           {
-            "id": "626c2099e163646e",
+            "id": "fb56f812de9d0e53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂记/学习笔记/TUI/TUI 笔记.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TUI 笔记"
-            }
-          },
-          {
-            "id": "4b2f3a775736f36c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "杂记/学习笔记/TUI/ANSI 转义序列.md",
+                "file": "知识积累/编程/教程/Git入门文档.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ANSI 转义序列"
-            }
-          },
-          {
-            "id": "f286cb84a8782670",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识积累/编程/教程/python/Python 字符串.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python 字符串"
-            }
-          },
-          {
-            "id": "ebec7fd561f07ad0",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "知识积累/编程/教程/Git入门文档.md",
-                "bFile": "知识积累/编程/教程/Git入门文档.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Git入门文档  (Working Tree)"
-            }
-          },
-          {
-            "id": "dd1c6c1b4ea36742",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识积累/编程/教程/python/Python 列表.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python 列表"
+              "title": "Git入门文档"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,23 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂记/学习笔记/Python 笔记.md",
+                "file": "知识积累/编程/教程/Git入门文档.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "大纲"
-            }
-          },
-          {
-            "id": "322b2b36bdd4faab",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
             }
           },
           {
@@ -299,14 +232,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2026/11/01.md"
+                "file": "知识积累/编程/教程/Git入门文档.md"
               },
               "icon": "lucide-info",
               "title": "笔记属性"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -327,14 +260,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ebec7fd561f07ad0",
+  "active": "fb56f812de9d0e53",
   "lastOpenFiles": [
-    "2026/11/13.md",
+    "知识积累/编程/架构与工程/Git.md",
     "知识积累/编程/教程/Git入门文档.md",
+    "知识积累/编程/教程/python/Python 字符串.md",
+    "2026/11/13.md",
     "2026/11/01.md",
     "知识积累/编程/教程/python/Python 列表.md",
     "知识积累/编程/教程/python/Python 字典.md",
-    "知识积累/编程/教程/python/Python 字符串.md",
     "知识积累/编程/教程/python/python库/Python msvcrt 库.md",
     "杂记/学习笔记/TUI/ANSI 转义序列.md",
     "杂记/学习笔记/TUI/TUI 笔记.md",
@@ -357,7 +291,6 @@
     "杂记/学习笔记/TUI",
     "杂记/学习笔记/Python 笔记.md",
     "知识积累/编程/教程/python/python库/Python json 库.md",
-    "游戏开发/规划/我的想法.md",
     "游戏开发/开发记录",
     "知识积累/编程/教程/网络",
     "知识积累/编程/教程/前端",
