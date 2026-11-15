@@ -3,6 +3,7 @@ date: 2026-10-31
 related:
   - "[[TUI 笔记]]"
   - "[[Python 笔记]]"
+  - "[[ANSI 转义序列完全参考]]"
 tags:
   - python
   - tui
@@ -263,3 +264,4 @@ kernel32.SetConsoleMode(handle, mode.value | 0x0004)   # ENABLE_VIRTUAL_TERMINAL
 
 - [[TUI 笔记]]：全屏终端界面的整体概念与库对比。
 - [[Python 笔记]]：语言层面的输出与标准库用法。
+- [[ANSI 转义序列完全参考]]：完整参考手册（ECMA-48 语法、模式表、兼容性矩阵、安全与速查表）。
